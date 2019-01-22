@@ -1,0 +1,30 @@
+#wrapper{
+    width:250px;
+    min-height:160px;
+    margin: auto;
+    outline: 1px solid black;
+
+}
+.div{
+    margin-top:200px;
+}
+.div h1{
+    margin-left:60px;
+    color:blue;
+    margin-top:50px;
+}
+.div h3{
+    margin-left:50px;
+    color:greenyellow;
+    margin-bottom:30px;
+}
+button{
+    margin-left:31px;
+    height: 35px;
+    border-radius:7px;
+    background-color: gray;
+}
+a{
+    text-decoration: none;
+    color:black;
+}

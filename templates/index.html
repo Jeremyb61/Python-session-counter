@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="div">
+            <h1>Counter</h1>
+            <h3>Refresh to add one</h3>
+            <h3>{{ add }} time(s)</h3>
+
+            <form action='/add2' method="post" name="add">
+                <span>Add Two: </span><input type="submit" name="add1">
+            </form>
+            <form action="/reset" method="post" name="reset">
+                <span>Reset: </span><input type="Submit" name="reset1" >
+            </form>
+        </div>
+    </div>
+</body>
+</html>
